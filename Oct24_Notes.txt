@@ -1,0 +1,204 @@
+Duration 3 Months
+next 3 months - Support on your project
+
+Maven Jenkins Spinnaker Eclipse/Intellij Static Code Analysis
+JIRA etc..
+
+Java Fullstack
+	Core Java - Java 8 Features - Functional Programming
+	Adv Java - Servlet JSP JDBC
+	Spring & Spring Boot Hibernate REST
+		Core
+		MVC
+		JPA
+		AOP
+		Security
+		Batch.....
+	Microservices
+	HTML, CSS, JavaScript & React
+	Basics(Compoenents - Lifecyles - Hooks)
+	State Management (Redux)
+	API Communication (Axios)
+	Bootstrap
+	
+Desgin Principles
+Design Patterns
+SOLID Principles
+	
+	End to End Project
+	
+	Enterprise Apps
+		Banking
+		eCommerce
+		Hospitality(Agoda, Booking.com, etc..)
+		Reservation(IRCTC, BookMyShow, etc...)
+		Restaurants
+		Online Grocery Stores
+		Delivery Systems(Swiggy, Zomato, etc...)
+		Logistics(Bluedart, Fedex, etc....)
+	
+	Database - ORM - Object Relational Mapping 
+	Spring Boot - JPA - Java Persistence API - Database
+	
+For every Class from me, You need to practice at least 5 hours
+
+Assingments - R&D 
+
+Rithwik - B.tech CSC
+
+8 1+1 1 = 11 hours to get the salary
+11 hours a day to get the job
+
+Operating Systems
+Relations DBMS
+
+Demo Java
+---------
+Realtime Entity
+Class
+Object
+
+Object Oriented Programming 
+	Encapsulation
+	Abstraction
+	Inhertience
+	Polymorphism
+
+SDLC - Software Dev Life Cycle
+	a. Requirements
+	b. Analysis
+	c. Design
+	d. Dev
+
+1. Real Time Entities - Properties & Behaviours
+	Bank
+	SavingsAccount
+		Properties
+			accBalance
+			accHolderName
+			accNo
+			personalInformation
+		Behaviours
+			deposit - amount, accNo
+			withdrawl
+			balanceEnquiry
+			accStatement
+	CurrentAccount
+	FixedDeposit
+	BankBranch
+	Manager
+	Loan
+	
+2. Represent above Realtime Entity - Class 
+	Class 
+		* BluePrint
+		* Template
+		* Design
+
+class SavingsAccount {
+	
+	double accBalance;
+	long accNo;
+	String accHolderName;
+	String personalInformation;
+	
+	String deposit(long accNo, double amount) {
+		// some-logic
+	}
+	
+	double withdrawl(long accNo, double amount) {
+		// some-logic
+	}
+	
+	String balanceEnquiry(long accNo) {
+		// some-logic
+	}
+	
+	//viewStatement
+	//last6Monthsstatement
+	
+}
+
+class Loan extends SavingsAccount {
+	//Inherited existing/parent funcationality into derived/child
+	
+	boolean checkEligibility() {
+		//It invokes viewStatement() or last6Monthsstatement()
+		//performs some logic to decide eligibility
+	}
+}
+
+class FixedDeposit extends SavingsAccount {
+
+}
+
+class LockerFacility extends SavingsAccount {
+
+}
+
+class DematAccount extends SavingsAccount {
+
+}
+
+etc...
+	
+3. Object
+	* Instance of the Class
+	* Consumes Memory
+	* Real existing Things
+
+class SBIKphbBranch {
+	void bankingOperations() {
+		SavingsAccount sravanAccount = new SavingsAccount(); //
+		sravanAccount.accNo = 1001;
+		sravanAccount.accHolderName = "sravan";
+		sravanAccount.accBalance = "2000";
+		
+		SavingsAccount rithwikAccount = new SavingsAccount();
+		rithwikAccount.accNo = 1002;
+		rithwikAccount.accHolderName = "Rithwik";
+		rithwikAccount.accBalance = "2000";
+		
+		sravanAccount.deposit(1001, 3000);
+		rithwikAccount.deposit(1002, 5000);
+		
+		int a = 10; //4 bytes
+		double d = 20.5; //8 bytes
+		//int 4 bytes of memory & double 8 bytes of memory
+		
+	}
+}
+
+Take a Scenario 
+
+Realtime Entity - Class - Object
+Project -
+
+Object Oriented Programming Concepts
+------------------------------------
+We should not learn OOPs - It should be our Thought Process
+
+a. Encapsulation
+	Combining Properties & Behaviours, which are acting upon those Properties into a Single Unit is called Encapsulation
+b. Abstraction
+	Hiding the funcationality to Enduser
+	Hiding Internal Implemenation
+	Why ? How ?
+c. Inhertience
+	Inheriting the funcationality from Parent to Child
+	Inheriting the functionality from Existing to Deriving
+	Why ? How ?
+d. Polymorphism
+	Poly - Many 
+	Morph - Forms 
+	Many Forms
+	Method Override or Method  Overloading
+	// Savings Account, Loan, Demat, Locker
+	One single SA number behaving differently in different scenarios.
+	
+	
+	
+
+Assignments
+-----------
+1. Take 3 classes & represent OOPs
