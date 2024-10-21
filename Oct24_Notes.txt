@@ -166,6 +166,8 @@ class SBIKphbBranch {
 		double d = 20.5; //8 bytes
 		//int 4 bytes of memory & double 8 bytes of memory
 		
+		// deposit, loan, Demat, Locker - One Single Account
+		
 	}
 }
 
@@ -195,10 +197,16 @@ d. Polymorphism
 	Method Override or Method  Overloading
 	// Savings Account, Loan, Demat, Locker
 	One single SA number behaving differently in different scenarios.
-	
-	
-	
+
 
 Assignments
 -----------
 1. Take 3 classes & represent OOPs
+
+Project Development Phases
+--------------------------
+
+1. Source Code Development Phase - Developer
+2. Compilation Phase - Java Compiler
+3. Execution Phase
+
