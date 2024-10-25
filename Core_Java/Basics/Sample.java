@@ -35,3 +35,53 @@ class A {
 		
 	}
 }
+
+class Test {
+	void m1() {
+		
+	}
+	
+	void m1(int a) {
+		
+	}
+	
+	void m1(int a, int b) {
+		
+	}
+	
+	public static void main(String[] args) {
+		Calculator c = new Calculator();
+		System.out.println(c.sum(10,20));
+		System.out.println(c.sum(10,20,30));
+		
+		System.out.println(c.sum(10,20,30,40,50,60));
+		
+		int a = 10;
+		int b = 10;
+		
+		System.out.println(a==b);
+		
+		Test t1 = new Test();
+		Test t2 = new Test();
+		System.out.println("comparing t1 & t2 - "+ (t1 == t2));
+		
+	}
+}
+
+class Calculator {
+	int sum(int a, int b) {
+		return a+b;
+	}
+	
+	int sum(int a, int b, int c) {
+		return a+b+c;
+	}
+	
+	int sum(int... x) {
+		int sum = 0;
+		for(int a: x) {
+			sum = sum + a;
+		}
+		return sum;
+	}
+}

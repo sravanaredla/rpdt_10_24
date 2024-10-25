@@ -1,6 +1,11 @@
 Duration 3 Months
 next 3 months - Support on your project
 
+Afzal - 
+Ashok - 
+Rithesh - 
+Rithvik - 
+
 Maven Jenkins Spinnaker Eclipse/Intellij Static Code Analysis
 JIRA etc..
 
@@ -101,9 +106,11 @@ class SavingsAccount {
 	long accNo;
 	String accHolderName;
 	String personalInformation;
+	static char accType = 's';
 	
 	String deposit(long accNo, double amount) {
 		// some-logic
+		int a = 20;
 	}
 	
 	double withdrawl(long accNo, double amount) {
@@ -208,5 +215,85 @@ Project Development Phases
 
 1. Source Code Development Phase - Developer
 2. Compilation Phase - Java Compiler
-3. Execution Phase
+3. Execution Phase - jvm - java virtual machine
+
+Language Fundamentals
+---------------------
+1. Identifiers
+	a. a to z
+	b. A to Z
+	c. 0 to 9
+	d. _
+	e. $
+2. Reserved Words(53)
+	Data Types: 
+		short byte int long float double char boolean 
+	Flow Controls:
+		if else switch case while do break continue return for default
+	Exception Handling
+		try catch finally throw throws assert
+	Class related keywords
+		class interface import extends implements enum
+	Object
+		new instanceof super this
+	void 
+	true false
+Assingments
+-----------
+3. Data Types
+	short byte int long float double char boolean 
+	a. Memory occupy
+	b. Range
+4. Literals
+5. Arrays
+6. Types of variables
+	a. Instance Variables
+	b. Static Variables
+	c. Local Variables
+7. Var-args method
+8. Memory Areas in JVM
+
+Arrays
+------
+
+Var-args
+
+Operators & Assignments
+-----------------------
+Increment & Decrement Operator
+int a = 10;
+a++;
+a--;
+++a;
+--a;
+
+Arithmetic Operators
+---------------------
++ - * / %
+
+String Concatenation
+---------------------
++
+
+Relational Operators
+--------------------
+<, <=, >=, ==
+
+Refernce Comparison Operator
+----------------------------
+==
+
+Equality operators
+instanceOf operators
+Bitwise operators
+Short circuit operators
+type cast operators
+assignment operators
+conditional operators
+
+Shaikafzal4u@gmail.com
+
+
+
+	
 
